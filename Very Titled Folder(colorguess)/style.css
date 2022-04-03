@@ -1,0 +1,69 @@
+html{
+    font-family: 'Praise', cursive;
+  }
+  
+  .colorButton{
+      width:70px;
+      height:70px;
+      border-radius: 50%;
+      border: 2px solid #00fbff;
+      margin: 15px;
+      transition: all 0.3s;
+    }
+  .colorButton:hover{
+    transform: scale(1.2);
+  }
+    
+    #buttonWrapper{
+      width: 50%;
+      /* set a mininum width */
+      min-width: 400px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 0 auto;
+    }
+    
+    h1{
+      text-align: center;
+      color:white;
+      font-size:50px;
+      margin:0px;
+      
+    }
+  
+    h2{
+      text-align: center;
+      color:white;
+      font-size:40px;
+      margin:0px;
+      
+    }
+    
+  body{
+    background-color:royalblue;
+    transition: all 0.3s; 
+  }
+  
+  
+  button#resetButton{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    font-family: 'Praise', cursive;
+    font-size:20px;
+    border-radius:15px;
+    padding: 5px;
+  }
+  
+  
+  /*
+  button#resetButton{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    font-size:20px;
+    border-radius:15px;
+    padding: 5px;
+  }
+  */
