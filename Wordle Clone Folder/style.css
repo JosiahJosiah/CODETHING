@@ -1,0 +1,46 @@
+body{
+    font-family: 'Lobster', cursive;
+    background-color: dodgerblue;
+}
+div.guessrow{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+}
+.tile{
+    width: 50px;
+    height: 50px;
+    background-color: lightgoldenrodyellow;
+    margin: 4px;
+}
+h1{
+    text-align: center;
+}
+div#keyboard{
+    margin-top:10vh;
+}
+#keyrow1, #keyrow2, #keyrow3{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.key{
+    font-family: 'Lobster', cursive;;
+    font-size: 14px;
+    background-color:rgb(100, 100, 100);
+    color:white;
+    border:1px solid white;
+    border-radius: 5px;
+    width:43px;
+    height:58px;
+    margin:4px;
+    transition: all 0.3s;
+}
+.wide{
+    width:68px;
+}
+.key:hover{
+    transform: scale(1.25);
+    transition: all 0.3s;
+}
