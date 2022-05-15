@@ -12,6 +12,10 @@ div.guessrow{
     height: 50px;
     background-color: lightgoldenrodyellow;
     margin: 4px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
 }
 h1{
     text-align: center;
@@ -44,3 +48,64 @@ div#keyboard{
     transform: scale(1.25);
     transition: all 0.3s;
 }
+div.turn-green{
+    animation-fill-mode: forwards;
+}
+div.turn-green:nth-child(n+1){
+    animation-name: turn-green-anim;
+    animation-duration: 0.5s;
+    animation-delay: 0s;
+    background-color: rgb(30,148,30);
+    transition-delay: 0.2s;
+}
+div.turn-green:nth-child(n+2){
+    animation-name: turn-green-anim;
+    animation-duration: 0.5s;
+    animation-delay: 0.2s;
+    background-color: rgb(30,148,30);
+    transition-delay: 0.4s;
+}
+div.turn-green:nth-child(n+3){
+    animation-name: turn-green-anim;
+    animation-duration: 0.5s;
+    animation-delay: 0.4s;
+    background-color: rgb(30,148,30);
+    transition-delay: 0.6s;
+}
+div.turn-green:nth-child(n+4){
+    animation-name: turn-green-anim;
+    animation-duration: 0.5s;
+    animation-delay: 0.6s;
+    background-color: rgb(30,148,30);
+    transition-delay: 0.8s;
+}
+div.turn-green:nth-child(n+5){
+    animation-name: turn-green-anim;
+    animation-duration: 0.5s;
+    animation-delay: 0.8s;
+    background-color: rgb(30,148,30);
+    transition-delay: 1s;
+}
+@keyframes turn-green-anim{
+    0% {
+        transform: rotateX(0deg);
+        background-color: black;
+}
+    50%{
+        transform: rotateX(90deg);
+        background-color: black;
+    }
+    100%{
+        transform: rotateX(0deg);
+        background-color: rgb(30,148,30);
+    }
+}
+
+
+
+
+
+
+
+
+

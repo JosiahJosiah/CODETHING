@@ -12,6 +12,7 @@
 </head>
 <body id = "myBody">
     <h1>SUPERIORJOSIAHWORDLE+++</h1>
+    <h2 id = "answer"></h2>
         <div id="grid-the-great">
             <div id="guessrow1" class="guessrow">
                 <div id="1-1" class="tile"></div>
@@ -58,9 +59,9 @@
         </div>
     <div id="keyboard">
         <div id="keyrow1">
-            <button class="key" id="q" value = "Click" onclick="enterLetter('q')">Q</button>
-            <button class="key" id="w" value = "Click" onclick="enterLetter('w')">W</button>
-            <button class="key" id="e" value = "Click" onclick="enterLetter('e')">E</button>
+            <button class="key" id="q" onclick="enterLetter('q')">Q</button>
+            <button class="key" id="w" onclick="enterLetter('w')">W</button>
+            <button class="key" id="e" onclick="enterLetter('e')">E</button>
             <button class="key" id="r" onclick="enterLetter('r')">R</button>
             <button class="key" id="t" onclick="enterLetter('t')">T</button>
             <button class="key" id="y" onclick="enterLetter('y')">Y</button>
@@ -82,7 +83,7 @@
         </div>
 
         <div id="keyrow3">
-            <button class="key wide" onclick="checkletters()">enter</button>
+            <button class="key wide" onclick="checkLetters()">enter</button>
             <button class="key" id="z" onclick="enterLetter('z')">Z</button>
             <button class="key" id="x" onclick="enterLetter('x')">X</button>
             <button class="key" id="c" onclick="enterLetter('c')">C</button>
@@ -90,7 +91,7 @@
             <button class="key" id="b" onclick="enterLetter('b')">B</button>
             <button class="key" id="n" onclick="enterLetter('n')">N</button>
             <button class="key" id="m" onclick="enterLetter('m')">M</button>
-            <button class="key wide" onclick="removeletters()">backspace</button>
+            <button class="key wide" onclick="removeLetter()">backspace</button>
         </div>
 
     </div>
